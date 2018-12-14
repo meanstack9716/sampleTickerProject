@@ -1,0 +1,10 @@
+{
+    "/api/*": {
+        "target": "https://finviz.com/api/suggestions.ashx",
+        "secure": false
+    },
+    "https://api.iextrading.com/*": {
+        "target": "https://api.iextrading.com",
+        "secure": false
+    }
+}
